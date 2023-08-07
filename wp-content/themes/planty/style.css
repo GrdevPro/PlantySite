@@ -10,3 +10,389 @@ Text Domain: planty
 Template: astra
 */
 
+html {
+  font-size: 100%;
+}
+
+/* Déplacer le lien "Admin" en 2nd position dans le menu */
+.ast-builder-menu .main-navigation > ul li:nth-child(2) {
+  order: 2; /* Change l'ordre de l'élément à la 2ème position */
+}
+
+li.a.menu-link > a {
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 60px;
+}
+
+/* NOUS RENCONTRER */
+
+/* CMD FORM PART */
+div.form-cmd {
+  display: flex;
+}
+
+h2.livraison-infos,
+h2.vos-infos {
+  width: 100%;
+}
+div.informations,
+div.livraison {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 44%;
+}
+
+div.informations p,
+div.livraison p {
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+span.wpcf7-form-control-wrap {
+  height: 71px;
+}
+
+.wpcf7 input {
+  border-radius: 5px;
+  height: 100%;
+}
+
+div.btn-form-cmd {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+span.wpcf7-spinner {
+  display: none;
+}
+
+h2.vos-infos,
+h2.livraison-infos {
+  color: #ffffff;
+  font-family: "Syne", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+div.e-con-inner {
+  background-color: #e3d9d0;
+  height: 950px;
+}
+
+/*************NAV BAR*******************/
+
+img.custom-logo {
+  width: 201px;
+  height: 19px;
+}
+div.main-navigation.ast-inline-flex {
+  margin-right: -47px;
+}
+
+li#menu-item-35,
+li#menu-item-913 {
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 60px;
+}
+
+li#menu-item-37 {
+  background-color: #dc9f96;
+  width: 204px;
+  height: 80px;
+}
+
+li#menu-item-37 > a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a.menu-link-admin {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/********** MAIN PAGE ************/
+div.elementor-element.elementor-element-5d4719f.e-con-full.container-3pictures.e-flex.e-con {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/*************FORM PART *********/
+
+input.wpcf7-form-control.has-spinner {
+  display: flex;
+  width: 13rem;
+  height: 55px;
+  padding: 9px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: #e0b9b4;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+  border-radius: 7px;
+  width: 100%;
+  height: 237px;
+}
+
+/* *****MAIN PAGE GALLERY************ */
+div#gallery-1 {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/*** NOUS RENCONTRER******* */
+
+div.elementor-24
+  .elementor-element.elementor-element-3d0cfe9
+  > .elementor-widget-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+div.elementor-24
+  .elementor-element.elementor-element-cdc4c5c.elementor-element {
+  display: flex;
+}
+
+div.elementor-element.elementor-element-096cb77 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img.attachment-medium.size-medium.wp-image-106 {
+  width: 147.316px;
+  height: 134.966px;
+  transform: rotate(-360deg);
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+label.message-form {
+  height: 237px;
+  display: block;
+}
+
+div.elementor-24
+  .elementor-element.elementor-element-3d0cfe9.elementor-element {
+  width: 150px;
+}
+
+
+
+/* BTN CONTACT */
+div.btn-nous-contacter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.btn-envoi>p{
+	margin-top: 13%;
+	display: flex;
+	justify-content: center;
+}
+/************************************************ Titre************* */
+div.elementor-24
+  .elementor-element.elementor-element-cdc4c5c.elementor-element {
+  display: initial;
+  width: calc(80% - 150px);
+}
+
+/******** PAGE COMMANDE******/
+
+
+/* GROUP IMG CSS */ 
+div.elementor-26 .elementor-element.elementor-element-0180786.e-con{
+
+   display: flex;
+    width: 100%;
+    /* flex-direction: row; */
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div.elementor-26 .elementor-element.elementor-element-2c20f29 > * {
+  padding: 0;
+}
+
+div.elementor-26 .elementor-element.elementor-element-b242300.e-con,
+div.elementor-26 .elementor-element.elementor-element-8c4bba3.e-con,
+div.elementor-26 .elementor-element.elementor-element-78f9c68.e-con,
+div.elementor-26 .elementor-element.elementor-element-827e092.e-con {
+  padding: 0;
+}
+
+span.minus {
+  margin-top: 1px;
+  border-radius: 0 0 5px 0;
+  height: 27px;
+}
+span.plus {
+  height: 28px;
+  border-radius: 0px 5px 0px 0px;
+}
+span.plus,
+span.minus {
+  color: #fff;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #dc9f96;
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.04));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.button {
+  width: 100%;
+  height: 56px;
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #e0b9b4;
+  display: flex;
+  padding: 9px 0px 10px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+span.zero {
+  background-color: white;
+  width: 4em;
+  height: 56px;
+  border-radius: 5px 0px 0px 5px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+div.rectangle {
+  display: flex;
+  background-color: white;
+  width:50%;
+  border-radius: 5px;
+}
+
+div.plus-minus {
+  width: 50%;
+  height: 56px;
+}
+
+div.btn{
+	width: 7rem;
+    margin-left: 10px;
+}
+
+div.btn-zero {
+  display: flex;
+}
+
+/************************************** COMMANDE FORM PART **************************/
+/* HR */
+hr.vertical {
+  border: none;
+  border-left: 1px solid #fff;
+  height: 447px;
+  width: 0;
+  margin: 0 35px;
+}
+div.elementor-26 .elementor-element.elementor-element-8a42b68.e-con,
+.elementor-26 .elementor-element.elementor-element-d90463a.e-con {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+div.div-btn-cmd{
+      display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+/* PAdding form */
+
+div.elementor-26 .elementor-element.elementor-element-bfd6ea9,div.elementor-26 .elementor-element.elementor-element-d90463a.e-con{
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  div.form-cmd {
+    flex-direction: column;
+    align-items: center;
+  }
+  hr.vertical {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+	h2.vos-infos,h2.livraison-infos {
+	 font-size: 22px; 
+	 color: #ffffff;
+    font-family: "Syne", Sans-serif;
+    font-weight: 700;
+	}
+  }
+  
+  @media screen and (max-width: 800px) {
+	h2.vos-infos,h2.livraison-infos{
+		font-size: 20px;
+		color: #ffffff;
+    font-family: "Syne", Sans-serif;
+    font-weight: 700; /* Réduisez la largeur maximale des titres pour les écrans plus petits que 800px */
+	}
+  
